@@ -1,0 +1,40 @@
+.register-container {
+  background-image: url('../backgroundPics/RegisterPage.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 60%;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+}
+
+button:hover {
+  background-color: #6c757d;
+}
+
+h2, p {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}

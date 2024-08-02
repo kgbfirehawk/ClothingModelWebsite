@@ -1,0 +1,145 @@
+.profile-container {
+  background-image: url('../backgroundPics/ProfilePage.jpg'); /* Update this path to your actual image path */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-form {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.profile-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.form-section label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.profile-picture {
+  margin-top: 20px; /* Decreased the margin-top */
+}
+
+.profile-picture input {
+  width: 100%;
+  margin-top: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.favorites {
+  margin-bottom: 20px;
+}
+
+.favorite-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.favorite-item select {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.favorite-item button {
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.favorite-item button:hover {
+  background-color: #ff0000;
+}
+
+.add-favorite {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-favorite:hover {
+  background-color: #45a049;
+}
+
+.notifications-security {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.notification-item, .security-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.notification-item label, .security-item label {
+  margin-right: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-button, .cancel-button {
+  width: 48%;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button:hover, .cancel-button:hover {
+  background-color: #6c757d;
+}

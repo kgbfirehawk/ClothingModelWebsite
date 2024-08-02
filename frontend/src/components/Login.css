@@ -1,0 +1,41 @@
+.login-container {
+  background-image: url('../backgroundPics/LoginPage.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  height: 100vh;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 60%; /* Adjust the width as needed */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: auto; /* Set the width to auto to fit the content */
+  max-width: 200px; /* Set a maximum width to prevent it from getting too wide */
+}
+
+button:hover {
+  background-color: #6c757d;
+}
+
+h2, p {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}
