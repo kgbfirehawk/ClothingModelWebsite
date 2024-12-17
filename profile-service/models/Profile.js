@@ -7,7 +7,7 @@ const ProfileSchema = new mongoose.Schema({
     required: true
   },
   profilePicture: {
-    type: String
+    type: String  // This field will store the path to the uploaded profile picture
   },
   about: {
     type: String

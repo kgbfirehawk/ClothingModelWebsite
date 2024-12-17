@@ -26,6 +26,7 @@ const Register = () => {
   return (
     <div className="register-container">
       <h2>Register</h2>
+      <h2>Please enter in your username, email, and then your password</h2>
       <input
         type="text"
         placeholder="Username"
@@ -51,7 +52,7 @@ const Register = () => {
           Terms and Conditions
         </a>.
       </p>
-      <p>Already have an account? <Link to="/login">Login here</Link></p>
+      <p>Already have an account? <Link to="/">Login here</Link></p>
     </div>
   );
 };

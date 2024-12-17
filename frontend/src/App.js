@@ -5,6 +5,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import Home from './components/Home';
 import ProfileCreation from './components/ProfileCreation';
+import Browse from './components/Browse';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<ProfileCreation />} />
+        <Route path="/browse" element={<Browse />} />
       </Routes>
     </Router>
   );

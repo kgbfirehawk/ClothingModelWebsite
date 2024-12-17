@@ -143,3 +143,10 @@ select {
 .save-button:hover, .cancel-button:hover {
   background-color: #6c757d;
 }
+
+.profile-picture img {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  border-radius: 50%; /* This makes the image circular */
+  object-fit: cover; /* Ensures the image fits within the circle */
+}

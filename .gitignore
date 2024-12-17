@@ -1,0 +1,16 @@
+# Node.js
+node_modules
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+auth-service/node_modules
+currency-converter/node_modules
+
+# Environment variables
+auth-service/.env
+currency-converter/.env

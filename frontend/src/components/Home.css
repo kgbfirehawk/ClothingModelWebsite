@@ -51,20 +51,49 @@
   align-items: center;
   justify-content: center;
   margin: 10px 0;
+  width: 300px; /* Ensure consistent width */
 }
 
 .category-section img {
-  margin: 0 10px;
-  max-width: 100px; /* Adjust as needed */
+  max-width: 100px; /* General image size, will be overridden for specific categories */
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.category-head img {
+  max-width: 60px; /* Smaller size for headwear */
+  max-height: 60px;
+}
+
+.category-top img, .category-bottom img {
+  max-width: 180px; /* Larger size for tops and bottoms */
+  max-height: 180px;
+}
+
+.category-shoes img {
+  max-width: 70px; /* Medium size for footwear */
+  max-height: 70px;
 }
 
 .nav-arrow {
-  padding: 10px 20px;
+  padding: 10px;
   background-color: gray;
   color: white;
   border: none;
   cursor: pointer;
-  margin: 0 5px;
+  width: 50px; /* Fixed size for arrows */
+  height: 50px;
+  box-sizing: border-box;
+  margin: 0 10px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-arrow img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .nav-arrow:hover {
@@ -86,4 +115,39 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+
+.outfit-container {
+  text-align: center;
+}
+
+.category-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.category-section img {
+  max-width: 100px; /* Increase this value to make images larger */
+  max-height: 150px; /* Adjusted for uniform height */
+  object-fit: contain;
+  margin: 0 10px;
+}
+
+.category-section button {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.outfit-images-container {
+  margin-top: 20px;
+}
+
+.profile-picture img {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  border-radius: 50%; /* This makes the image circular */
+  object-fit: cover; /* Ensures the image fits within the circle */
 }
