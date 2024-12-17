@@ -1,0 +1,6 @@
+start cmd /k "cd /d %~dp0../frontend && npm start"
+start cmd /k "cd /d %~dp0../auth-service && npm start"
+start cmd /k "cd /d %~dp0../profile-service && npm start"
+start cmd /k "cd /d %~dp0../model-service && npm start"
+start cmd /k "cd /d %~dp0../sharing-service && npm start"
+start cmd /k "cd /d %~dp0../currency-converter && python currency_converter.py"
